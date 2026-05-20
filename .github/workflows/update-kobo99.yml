@@ -1,0 +1,78 @@
+name: Update Kobo 99 Calendar
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      full_year:
+        description: "Optional full year scan, for example 2026"
+        required: false
+        type: string
+      history_start_year:
+        description: "Optional historical backfill start year, for example 2024"
+        required: false
+        type: string
+      history_end_year:
+        description: "Optional historical backfill end year. Defaults to current year."
+        required: false
+        type: string
+  schedule:
+    # GitHub Actions uses UTC. 14:00 UTC is Wednesday 22:00 in Asia/Taipei.
+    - cron: "0 14 * * 3"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install browser fallback
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Build calendar files
+        run: |
+          if [ -n "${{ inputs.history_start_year }}" ]; then
+            if [ -n "${{ inputs.history_end_year }}" ]; then
+              python scripts/kobo99.py --out public --history-start-year "${{ inputs.history_start_year }}" --history-end-year "${{ inputs.history_end_year }}"
+            else
+              python scripts/kobo99.py --out public --history-start-year "${{ inputs.history_start_year }}"
+            fi
+          elif [ -n "${{ inputs.full_year }}" ]; then
+            python scripts/kobo99.py --out public --full-year "${{ inputs.full_year }}"
+          else
+            python scripts/kobo99.py --out public
+          fi
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/events.json public/kobo99.ics public/index.html
+          git diff --cached --quiet || git commit -m "Update Kobo 99 calendar"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - uses: actions/deploy-pages@v4
