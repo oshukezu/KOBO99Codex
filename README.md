@@ -1,4 +1,4 @@
-# Kobo 99 元選書行事曆
+# Kobo 99 元書單行事曆
 
 自動爬取 KOBO 部落格「一週99元書單」文章、解析書單並輸出可訂閱的 `.ics` (iCalendar) 檔案，供 Google 日曆「從網址新增」訂閱。
 訂閱資訊：[複製網址](https://calendar.google.com/](https://calendar.google.com/calendar/ical/u72vcutakmkhahnk8en1q90p3hf0gb98%40import.calendar.google.com/public/basic.ics
