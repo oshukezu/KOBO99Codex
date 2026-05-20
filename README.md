@@ -1,8 +1,8 @@
 # Kobo 99 元選書行事曆
 
 自動爬取 KOBO 部落格「一週99元書單」文章、解析書單並輸出可訂閱的 `.ics` (iCalendar) 檔案，供 Google 日曆「從網址新增」訂閱。
-訂閱資訊：[複製網址](https://calendar.google.com/](https://calendar.google.com/calendar/ical/u72vcutakmkhahnk8en1q90p3hf0gb98%40import.calendar.google.com/public/basic.ics)
-
+訂閱資訊：[複製網址](https://calendar.google.com/](https://calendar.google.com/calendar/ical/u72vcutakmkhahnk8en1q90p3hf0gb98%40import.calendar.google.com/public/basic.ics
+)
 ## 說明
 這個專案會在每週四 07:00（台北時間）執行，也會在 push 到 `main` 時更新資料並部署到 GitHub Pages。首頁會自動依照目前網址產生 Google Calendar 訂閱連結。
 `public/events.json` 是累積資料庫。腳本預設會保留既有資料並合併新抓到的選書，所以過去已寫入的歷史資料不會在每週更新時被清掉。
@@ -10,8 +10,8 @@
 ## 如何新增日曆
 - 開啟 [Google 日曆](https://calendar.google.com/)
 - 點選右上角 齒輪 > 設定
-- 左側 一般 > 新增日曆 > 加入[日曆網址]([https://calendar.google.com/](https://calendar.google.com/calendar/ical/u72vcutakmkhahnk8en1q90p3hf0gb98%40import.calendar.google.com/public/basic.ics
-))
+- 左側 一般 > 新增日曆 > 加入[網址](https://calendar.google.com/](https://calendar.google.com/calendar/ical/u72vcutakmkhahnk8en1q90p3hf0gb98%40import.calendar.google.com/public/basic.ics
+)
 - 輸入 
 - 點選 新增日曆
 
