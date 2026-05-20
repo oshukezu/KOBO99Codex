@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kobo 99 元選書行事曆</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f5ef;
+      --panel: #ffffff;
+      --text: #232323;
+      --muted: #64605a;
+      --line: #ddd7cc;
+      --accent: #0f6c5a;
+      --accent-dark: #0a4f42;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    main {
+      width: min(960px, calc(100% - 32px));
+      margin: 48px auto;
+    }
+    header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      letter-spacing: 0;
+    }
+    p { margin: 0; color: var(--muted); }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+      min-width: 240px;
+    }
+    .button {
+      display: inline-flex;
+      min-height: 42px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      padding: 10px 14px;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .button.secondary {
+      background: transparent;
+      color: var(--accent-dark);
+      border: 1px solid var(--line);
+    }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+    tr:last-child td { border-bottom: 0; }
+    td:first-child { width: 132px; color: var(--muted); }
+    a { color: var(--accent-dark); }
+    footer {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    @media (max-width: 720px) {
+      main { margin: 28px auto; }
+      header { display: block; }
+      .actions { justify-content: flex-start; margin-top: 18px; }
+      table, tbody, tr, td { display: block; width: 100%; }
+      thead { display: none; }
+      tr { border-bottom: 1px solid var(--line); padding: 12px 0; }
+      tr:last-child { border-bottom: 0; }
+      td { border: 0; padding: 4px 16px; }
+      td:first-child { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Kobo 99 元選書行事曆</h1>
+        <p>每週三 22:00（台北時間）更新，來源為 Kobo 公開部落格文章。</p>
+      </div>
+      <nav class="actions" aria-label="訂閱連結">
+        <a class="button" id="google-link" href="https://calendar.google.com/calendar/render">Google Calendar 訂閱</a>
+        <a class="button secondary" href="kobo99.ics">下載 ICS</a>
+        <a class="button secondary" href="events.json">查看 JSON</a>
+      </nav>
+    </header>
+    <section aria-label="近期選書">
+      <table>
+        <thead>
+          <tr>
+            <th>日期</th>
+            <th>書名</th>
+            <th>來源</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><time datetime="2025-12-20">2025-12-20</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/AP__wh78ODuRzz_BLWlTeQ?sId=c46427b5-7f3c-463d-8373-8d3407a49291&amp;ssId=zXUQ-2VcGhUW0KbdVD6ut&amp;cPos=4&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20251218">破咒師（奇幻暢銷新星夏莉．荷柏格，師承邪惡奇幻天才「山神」、神祕目眩的魔幻之作！）</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2025-w51">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2025-12-21">2025-12-21</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/6CI7JqntdTuYGzvh0kM2QQ?sId=c46427b5-7f3c-463d-8373-8d3407a49291&amp;ssId=zXUQ-2VcGhUW0KbdVD6ut&amp;cPos=2&amp;utm_source=koboblog">能言善道的沙丁魚：來自海洋國度的奧妙故事</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2025-w51">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2025-12-22">2025-12-22</time></td>
+            <td><a href="https://www.kobo.com/hk/zh/ebook/pEmgMQIhjj2GVTPyWaOwLg?sId=c46427b5-7f3c-463d-8373-8d3407a49291&amp;ssId=zXUQ-2VcGhUW0KbdVD6ut&amp;cPos=3&amp;utm_source=twblog-hksite&amp;utm_medium=99list&amp;utm_campaign=coin99_20251218">犯罪人格剖繪檔案（增訂版）</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2025-w51">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2025-12-23">2025-12-23</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/eNEr8_msjjKgYREtHXkl6w?sId=c46427b5-7f3c-463d-8373-8d3407a49291&amp;ssId=zXUQ-2VcGhUW0KbdVD6ut&amp;cPos=8&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20251218">失去貞操的橄欖油：橄欖油的真相與謊言</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2025-w51">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2025-12-24">2025-12-24</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/90-49qa?sId=c46427b5-7f3c-463d-8373-8d3407a49291&amp;ssId=zXUQ-2VcGhUW0KbdVD6ut&amp;cPos=5&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20251218">史丹佛大學「黃金90分鐘」睡眠法：睡不著沒關係！「最高睡眠法」西野精治49個QA對策，用科學終結睡眠困擾</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2025-w51">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-05-07">2026-05-07</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/y9TyXp1o7DWQOrBVUEswBA?sId=c82ac0a7-3a02-4520-bc85-80f5bc3ec68b&amp;ssId=Iytzhv77MfZe7gNB8qmqP&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20260507">覺醒中年：另一種生活的開始:找到人生下半場的意義</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2026-w19">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-05-08">2026-05-08</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/yycV9mY05TWkki7Oq4NQ7w?sId=f0182673-2d80-40a8-9a37-16975c5c3244&amp;ssId=FKWeJem6lDmzjWFenjXJ8&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20260508">系統思考實作篇：一眼看清規律背後的結構和邏輯:解決現實世界中的複雜問題</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2026-w19">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-05-08">2026-05-08</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/yqrXSzxo6TGMG6-KznuOPQ?sId=09e61d3c-2bf6-4d53-88b5-7a13a541823b&amp;ssId=9-a1K37hLdEjEM5_4N8Oj&amp;cPos=8&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20260507">自驱力觉醒</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2026-w19">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-05-09">2026-05-09</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/WDQgY6IYnTeU4eOMk0XXfQ?sId=09e61d3c-2bf6-4d53-88b5-7a13a541823b&amp;ssId=9-a1K37hLdEjEM5_4N8Oj&amp;cPos=5&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20260507">《控制》（十週年暢銷紀念新版）</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2026-w19">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-05-10">2026-05-10</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/3AuScK7SCDK-JrWWDg5GBw?sId=09e61d3c-2bf6-4d53-88b5-7a13a541823b&amp;ssId=9-a1K37hLdEjEM5_4N8Oj&amp;cPos=6&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20260507">養雞時代：21則你吃過雞:卻不瞭解的冷知識</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2026-w19">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-05-11">2026-05-11</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/qlzWfdkZvzi1JBdUJR9_zA?sId=03327ed1-1ccc-44f6-803b-e1ef24741c21&amp;ssId=gTKfPTcxsCVNG38GoHXq8&amp;cPos=1&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20260507">你:燃燒殆盡了嗎？：用情商打造倦怠免疫力:在壓力下維持高效能:和工作建立更健康的關係</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2026-w19">來源文章</a></td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-05-12">2026-05-12</time></td>
+            <td><a href="https://www.kobo.com/tw/zh/ebook/Xy9vZGPMVjW4tMMFF4Jr-g?sId=13d7779a-b046-4453-9278-31eaf9de0344&amp;ssId=s6OhjiXalI1jO_-M76u0U&amp;cPos=5&amp;utm_source=twblog&amp;utm_medium=99list&amp;utm_campaign=coin99_20260507">殺人者的記憶法</a></td>
+            <td><a href="https://www.kobo.com/zh/blog/weekly-dd99-2026-w19">來源文章</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <footer>最後產生時間：2026-05-20 17:09:35 CST</footer>
+  </main>
+  <script>
+    const icsUrl = new URL("kobo99.ics", window.location.href).href;
+    document.getElementById("google-link").href =
+      "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(icsUrl);
+  </script>
+</body>
+</html>
