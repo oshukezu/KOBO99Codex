@@ -7,7 +7,7 @@ X-WR-CALNAME:Kobo 99 元選書
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:4c10eb82ccb731679febacbf19fd288f4b4e5ed4@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20251218
 DTEND;VALUE=DATE:20251219
 SUMMARY:進擊：未來社會的九大生存法則
@@ -22,7 +22,7 @@ URL:https://www.kobo.com/tw/zh/ebook/wOj94FycMjWKF0wF1ylnew?sId=c46427b5-7f
 END:VEVENT
 BEGIN:VEVENT
 UID:28f6a4c9a2caa6e38042770ddb267fa77857a9ad@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20251219
 DTEND;VALUE=DATE:20251220
 SUMMARY:可愛無法擋！：卡哇伊文化如何連結我們的大腦並
@@ -39,7 +39,7 @@ URL:https://www.kobo.com/tw/zh/ebook/Fs-RPNOkvTOGS8rYZt0rJg?sId=c46427b5-7f
 END:VEVENT
 BEGIN:VEVENT
 UID:16de760f9de90a0f3c060626a2e9684deb42deea@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20251219
 DTEND;VALUE=DATE:20251220
 SUMMARY:故事演讲力：商业演讲中的故事策略
@@ -54,7 +54,7 @@ URL:https://www.kobo.com/tw/zh/ebook/s0P-SjgMajyUrATGR2KNXw?sId=36efd4ea-3b
 END:VEVENT
 BEGIN:VEVENT
 UID:e5c8b411525ad519dc02c59f71f311114305a083@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20251220
 DTEND;VALUE=DATE:20251221
 SUMMARY:破咒師（奇幻暢銷新星夏莉．荷柏格，師承邪惡奇
@@ -71,7 +71,7 @@ URL:https://www.kobo.com/tw/zh/ebook/AP__wh78ODuRzz_BLWlTeQ?sId=c46427b5-7f
 END:VEVENT
 BEGIN:VEVENT
 UID:55b3dc5fb7d9d1429e1f1e8f7322720dcfaff9c1@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20251221
 DTEND;VALUE=DATE:20251222
 SUMMARY:能言善道的沙丁魚：來自海洋國度的奧妙故事
@@ -86,7 +86,7 @@ URL:https://www.kobo.com/tw/zh/ebook/6CI7JqntdTuYGzvh0kM2QQ?sId=c46427b5-7f
 END:VEVENT
 BEGIN:VEVENT
 UID:22830fde5e1baafdb3daf58aaa9d215efb04f6f9@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20251222
 DTEND;VALUE=DATE:20251223
 SUMMARY:犯罪人格剖繪檔案（增訂版）
@@ -101,7 +101,7 @@ URL:https://www.kobo.com/hk/zh/ebook/pEmgMQIhjj2GVTPyWaOwLg?sId=c46427b5-7f
 END:VEVENT
 BEGIN:VEVENT
 UID:7e26c6c122aff672f04bcb36fd7516e01fb947e1@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20251223
 DTEND;VALUE=DATE:20251224
 SUMMARY:失去貞操的橄欖油：橄欖油的真相與謊言
@@ -116,7 +116,7 @@ URL:https://www.kobo.com/tw/zh/ebook/eNEr8_msjjKgYREtHXkl6w?sId=c46427b5-7f
 END:VEVENT
 BEGIN:VEVENT
 UID:83bc5f70b20a3e80fad13ad2c5b098cb963166e7@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20251224
 DTEND;VALUE=DATE:20251225
 SUMMARY:史丹佛大學「黃金90分鐘」睡眠法：睡不著沒關係
@@ -134,7 +134,7 @@ URL:https://www.kobo.com/tw/zh/ebook/90-49qa?sId=c46427b5-7f3c-463d-8373-8d
 END:VEVENT
 BEGIN:VEVENT
 UID:78debdb28bb2577a97b2653d32bad7ba1e173698@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
 SUMMARY:覺醒中年：另一種生活的開始:找到人生下半場的意
@@ -150,7 +150,7 @@ URL:https://www.kobo.com/tw/zh/ebook/y9TyXp1o7DWQOrBVUEswBA?sId=c82ac0a7-3a
 END:VEVENT
 BEGIN:VEVENT
 UID:d6f374031efc73016eaabffbe9b134e8d4b09834@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 SUMMARY:系統思考實作篇：一眼看清規律背後的結構和邏輯:
@@ -167,7 +167,7 @@ URL:https://www.kobo.com/tw/zh/ebook/yycV9mY05TWkki7Oq4NQ7w?sId=f0182673-2d
 END:VEVENT
 BEGIN:VEVENT
 UID:ab62468ca5855db9711ac31d50b22faccf33bd1d@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20260508
 DTEND;VALUE=DATE:20260509
 SUMMARY:自驱力觉醒
@@ -182,7 +182,7 @@ URL:https://www.kobo.com/tw/zh/ebook/yqrXSzxo6TGMG6-KznuOPQ?sId=09e61d3c-2b
 END:VEVENT
 BEGIN:VEVENT
 UID:d8d97b7f9edfb772059a8216b86db8f306dcdbb0@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20260509
 DTEND;VALUE=DATE:20260510
 SUMMARY:《控制》（十週年暢銷紀念新版）
@@ -197,7 +197,7 @@ URL:https://www.kobo.com/tw/zh/ebook/WDQgY6IYnTeU4eOMk0XXfQ?sId=09e61d3c-2b
 END:VEVENT
 BEGIN:VEVENT
 UID:f75110d3624079ce83f2c0b5064dd9b1e62e2d24@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20260510
 DTEND;VALUE=DATE:20260511
 SUMMARY:養雞時代：21則你吃過雞:卻不瞭解的冷知識
@@ -212,7 +212,7 @@ URL:https://www.kobo.com/tw/zh/ebook/3AuScK7SCDK-JrWWDg5GBw?sId=09e61d3c-2b
 END:VEVENT
 BEGIN:VEVENT
 UID:6f036c47926d062b5b7580760b5edea82f3aa698@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20260511
 DTEND;VALUE=DATE:20260512
 SUMMARY:你:燃燒殆盡了嗎？：用情商打造倦怠免疫力:在壓
@@ -229,7 +229,7 @@ URL:https://www.kobo.com/tw/zh/ebook/qlzWfdkZvzi1JBdUJR9_zA?sId=03327ed1-1c
 END:VEVENT
 BEGIN:VEVENT
 UID:a877eff3cfd5c836748ff638f7452669627cd784@kobo99
-DTSTAMP:20260520T090935Z
+DTSTAMP:20260520T095047Z
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
 SUMMARY:殺人者的記憶法
@@ -241,5 +241,135 @@ DESCRIPTION:書名：殺人者的記憶法\n查看電子書：https://www.k
 URL:https://www.kobo.com/tw/zh/ebook/Xy9vZGPMVjW4tMMFF4Jr-g?sId=13d7779a-b0
  46-4453-9278-31eaf9de0344&ssId=s6OhjiXalI1jO_-M76u0U&cPos=5&utm_source=twb
  log&utm_medium=99list&utm_campaign=coin99_20260507
+END:VEVENT
+BEGIN:VEVENT
+UID:7686d3cb959120717c196e7396baf472fe69675c@kobo99
+DTSTAMP:20260520T095047Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+SUMMARY:科特勒談新行銷：大師給企業的新世代行銷建議
+DESCRIPTION:書名：科特勒談新行銷：大師給企業的新世代行
+ 銷建議\n查看電子書：https://www.kobo.com/tw/zh/ebook/1ZNXJzgndDms
+ Z1zTWaaWGg?sid=27372e11-a61a-4720-ae6d-b0022d885830&ssid=N6MynOrybeCKSa3KT
+ tVPM&cPos=1&utm_source=twblog&utm_medium=99list&utm_campaign=coin99_202605
+ 14\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-2026-w20
+URL:https://www.kobo.com/tw/zh/ebook/1ZNXJzgndDmsZ1zTWaaWGg?sid=27372e11-a6
+ 1a-4720-ae6d-b0022d885830&ssid=N6MynOrybeCKSa3KTtVPM&cPos=1&utm_source=twb
+ log&utm_medium=99list&utm_campaign=coin99_20260514
+END:VEVENT
+BEGIN:VEVENT
+UID:c3a323d214c9463b0296ab0cc542cfbfb4b79235@kobo99
+DTSTAMP:20260520T095047Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:《利率史》(第4版)
+DESCRIPTION:書名：《利率史》(第4版)\n查看電子書：https://ww
+ w.kobo.com/tw/zh/ebook/IdfMIsVgOzCfJh_j4XE5tQ?sId=2c650f4a-780d-4e50-97f8-
+ a515185fbb30&ssId=gKt_zhtPwIFU9Mq33RB-g&cPos=9&utm_source=twblog&utm_mediu
+ m=99list&utm_campaign=coin99_20260514\n來源文章：https://www.kobo.com
+ /zh/blog/weekly-dd99-2026-w20
+URL:https://www.kobo.com/tw/zh/ebook/IdfMIsVgOzCfJh_j4XE5tQ?sId=2c650f4a-78
+ 0d-4e50-97f8-a515185fbb30&ssId=gKt_zhtPwIFU9Mq33RB-g&cPos=9&utm_source=twb
+ log&utm_medium=99list&utm_campaign=coin99_20260514
+END:VEVENT
+BEGIN:VEVENT
+UID:c0eaf647c93811037f5dfbf1f4407145c1d2f6b0@kobo99
+DTSTAMP:20260520T095047Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:最佳結果：哥倫比亞大學人氣專題研討課程:8項練
+ 習洞察心理:掌握溝通技巧、化解衝突
+DESCRIPTION:書名：最佳結果：哥倫比亞大學人氣專題研討課
+ 程:8項練習洞察心理:掌握溝通技巧、化解衝突\n查看電子
+ 書：https://www.kobo.com/tw/zh/ebook/E9JKMSlZujuc_-2vsTZC0Q?sId=45faa55f
+ -1fa4-4c8c-9837-595b611cab7e&ssId=zWTgjF8Cty6IqORUxW1mW&cPos=6&utm_source=
+ twblog&utm_medium=99list&utm_campaign=coin99_20260514\n來源文章：http
+ s://www.kobo.com/zh/blog/weekly-dd99-2026-w20
+URL:https://www.kobo.com/tw/zh/ebook/E9JKMSlZujuc_-2vsTZC0Q?sId=45faa55f-1f
+ a4-4c8c-9837-595b611cab7e&ssId=zWTgjF8Cty6IqORUxW1mW&cPos=6&utm_source=twb
+ log&utm_medium=99list&utm_campaign=coin99_20260514
+END:VEVENT
+BEGIN:VEVENT
+UID:16588482a6085107ae19a14ebb69abe8d44ebdbd@kobo99
+DTSTAMP:20260520T095047Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:蒼蠅效應：如何用最簡單的方法:操控最複雜的人心
+ ？揭開潛意識引導的底層邏輯
+DESCRIPTION:書名：蒼蠅效應：如何用最簡單的方法:操控最
+ 複雜的人心？揭開潛意識引導的底層邏輯\n查看電子書：
+ https://www.kobo.com/tw/zh/ebook/90C7ll3Pqzadl9BJRLLluA?sid=8a1ae1c4-5c3c-
+ 4785-8765-620383508863&ssid=TvId4CsihupATQ5-_4Z_l&cPos=1&utm_source=twblog
+ &utm_medium=99list&utm_campaign=coin99_20260514\n來源文章：https://ww
+ w.kobo.com/zh/blog/weekly-dd99-2026-w20
+URL:https://www.kobo.com/tw/zh/ebook/90C7ll3Pqzadl9BJRLLluA?sid=8a1ae1c4-5c
+ 3c-4785-8765-620383508863&ssid=TvId4CsihupATQ5-_4Z_l&cPos=1&utm_source=twb
+ log&utm_medium=99list&utm_campaign=coin99_20260514
+END:VEVENT
+BEGIN:VEVENT
+UID:054d28e21c48e5aa390bc636d7fe5f8d8f9d83c3@kobo99
+DTSTAMP:20260520T095047Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:劉必榮的國際關係課：一本掌握看世界的方法，看
+ 懂全球大局
+DESCRIPTION:書名：劉必榮的國際關係課：一本掌握看世界的
+ 方法，看懂全球大局\n查看電子書：https://www.kobo.com/tw/zh/
+ ebook/Oq0C-toUhj61pU7ZuOeAuQ?sid=0e2933ff-dd01-4671-a66d-1c8b20b97a18&ssid
+ =LgBAj5ZabgMhGqfG52D53&utm_source=twblog&utm_medium=99list&utm_campaign=co
+ in99_20260514\n來源文章：https://www.kobo.com/zh/blog/weekly-dd99-202
+ 6-w20
+URL:https://www.kobo.com/tw/zh/ebook/Oq0C-toUhj61pU7ZuOeAuQ?sid=0e2933ff-dd
+ 01-4671-a66d-1c8b20b97a18&ssid=LgBAj5ZabgMhGqfG52D53&utm_source=twblog&utm
+ _medium=99list&utm_campaign=coin99_20260514
+END:VEVENT
+BEGIN:VEVENT
+UID:87af7adcef6581c3f6b4ddc7e2333274dbac8775@kobo99
+DTSTAMP:20260520T095047Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:薛丁格：我的人生:我的世界觀
+DESCRIPTION:書名：薛丁格：我的人生:我的世界觀\n查看電子
+ 書：https://www.kobo.com/tw/zh/ebook/3aDf6svCgDe2equJZuwdKg?sId=98a1ab3e
+ -da79-486e-acfe-9da31a57d57c&ssId=VOExp7g4EBEX736syxEWi&cPos=8&utm_source=
+ twblog&utm_medium=99list&utm_campaign=coin99_20260514\n來源文章：http
+ s://www.kobo.com/zh/blog/weekly-dd99-2026-w20
+URL:https://www.kobo.com/tw/zh/ebook/3aDf6svCgDe2equJZuwdKg?sId=98a1ab3e-da
+ 79-486e-acfe-9da31a57d57c&ssId=VOExp7g4EBEX736syxEWi&cPos=8&utm_source=twb
+ log&utm_medium=99list&utm_campaign=coin99_20260514
+END:VEVENT
+BEGIN:VEVENT
+UID:bc54f4dc7c57a9a62376f8f196c18b062ffb18d4@kobo99
+DTSTAMP:20260520T095047Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+SUMMARY:《腓尼基神話：影響希臘與羅馬神話:地中海紫紅之
+ 國的神祕傳說》【世界神話系列7】
+DESCRIPTION:書名：《腓尼基神話：影響希臘與羅馬神話:地
+ 中海紫紅之國的神祕傳說》【世界神話系列7】\n查看電
+ 子書：https://www.kobo.com/tw/zh/ebook/NS3wWVRetjmY6DG8GCaQ7Q?sId=0649b
+ f85-0591-4b63-8339-caf28a9f52f0&ssId=Jb1l7KjU01C63QJld5QiQ&cPos=7&utm_sour
+ ce=twblog&utm_medium=99list&utm_campaign=coin99_20260514\n來源文章：h
+ ttps://www.kobo.com/zh/blog/weekly-dd99-2026-w20
+URL:https://www.kobo.com/tw/zh/ebook/NS3wWVRetjmY6DG8GCaQ7Q?sId=0649bf85-05
+ 91-4b63-8339-caf28a9f52f0&ssId=Jb1l7KjU01C63QJld5QiQ&cPos=7&utm_source=twb
+ log&utm_medium=99list&utm_campaign=coin99_20260514
+END:VEVENT
+BEGIN:VEVENT
+UID:2c1f2973277cfa00fb481b1fe1df38961f38a28a@kobo99
+DTSTAMP:20260520T095047Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:吃飯沒？：探訪全球中餐館:關於移民、飲食與文化
+ 認同的故事
+DESCRIPTION:書名：吃飯沒？：探訪全球中餐館:關於移民、
+ 飲食與文化認同的故事\n查看電子書：https://www.kobo.com/tw/
+ zh/ebook/T7mHfPqfoDOEcaipd5PpsA?sId=db29fa10-4f6f-4319-8aa8-af015ed02287&s
+ sId=1pK39OA0Z3F998WYupKHX&cPos=1&utm_source=twblog&utm_medium=99list&utm_c
+ ampaign=coin99_20260514\n來源文章：https://www.kobo.com/zh/blog/weekl
+ y-dd99-2026-w20
+URL:https://www.kobo.com/tw/zh/ebook/T7mHfPqfoDOEcaipd5PpsA?sId=db29fa10-4f
+ 6f-4319-8aa8-af015ed02287&ssId=1pK39OA0Z3F998WYupKHX&cPos=1&utm_source=twb
+ log&utm_medium=99list&utm_campaign=coin99_20260514
 END:VEVENT
 END:VCALENDAR
