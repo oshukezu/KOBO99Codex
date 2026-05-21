@@ -339,7 +339,6 @@ def write_ics(events: list[SaleEvent], path: Path) -> None:
         description = "\n".join(
             [
                 f"書名：{event.title}",
-                f"查看電子書：{event.book_url}",
                 f"來源文章：{event.source_url}",
             ]
         )
@@ -571,6 +570,11 @@ def main() -> None:
         help="Fetch with urllib, Playwright browser, or direct first with browser fallback.",
     )
     parser.add_argument("--browser-timeout-seconds", type=int, default=60, help="Browser fetch timeout.")
+    parser.add_argument(
+        "--render-only",
+        action="store_true",
+        help="Only rebuild ICS and HTML from existing events.json without fetching Kobo pages.",
+    )
     history_group = parser.add_mutually_exclusive_group()
     history_group.add_argument(
         "--keep-existing",
@@ -593,13 +597,15 @@ def main() -> None:
     events_json = output_dir / "events.json"
 
     existing = load_existing(events_json) if args.keep_existing else []
-    scraped = scrape_targets(
-        build_targets(args),
-        delay_seconds=args.delay_seconds,
-        fetch_mode=args.fetch_mode,
-        browser_timeout_seconds=args.browser_timeout_seconds,
-        strict=args.strict,
-    )
+    scraped = []
+    if not args.render_only:
+        scraped = scrape_targets(
+            build_targets(args),
+            delay_seconds=args.delay_seconds,
+            fetch_mode=args.fetch_mode,
+            browser_timeout_seconds=args.browser_timeout_seconds,
+            strict=args.strict,
+        )
     events = merge_events([*existing, *scraped])
 
     write_json(events, events_json)
