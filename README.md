@@ -1,7 +1,7 @@
 # Kobo 99 元書單行事曆 (ICS)
 
 自動爬取 KOBO 部落格「一週99元書單」文章、解析書單並輸出可訂閱的 `.ics` (iCalendar) 檔案，供 Google 日曆「從網址新增」訂閱。
-訂閱資訊：[複製網址](https://oshukezu.github.io/KOBO99Codex/public/kobo99.ics)
+訂閱資訊：[複製網址](https://oshukezu.github.io/KOBO99-ics/public/kobo99.ics)
 ## 說明
 這個專案會在每週四 07:00（台北時間）執行，也會在 push 到 `main` 時更新資料並部署到 GitHub Pages。首頁會自動依照目前網址產生 Google Calendar 訂閱連結。
 `public/events.json` 是累積資料庫。腳本預設會保留既有資料並合併新抓到的選書，所以過去已寫入的歷史資料不會在每週更新時被清掉。
@@ -9,9 +9,9 @@
 ## 如何新增日曆
 - 開啟 [Google 日曆](https://calendar.google.com/)
 - 點選右上角 齒輪 > 設定
-- 左側 一般 > 新增日曆 > [加入日曆網址](https://oshukezu.github.io/KOBO99Codex/public/kobo99.ics)
+- 左側 一般 > 新增日曆 > [加入日曆網址](https://oshukezu.github.io/KOBO99-ics/public/kobo99.ics)
 
-<img width="920" height="359" alt="image" src="https://github.com/user-attachments/assets/d5e686ba-d9aa-4a0f-ab17-85c720522143" />
+
 
 ## 免責與技術限制宣告 (Disclaimer & Limitations)
 本專案為個人非營利性質之自動化開源工具，所產生之行事曆與書單資料僅供個人閱讀參考。使用本工具前請知悉以下限制：
