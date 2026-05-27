@@ -1,4 +1,4 @@
-# Kobo 99 元書單行事曆
+# Kobo 99 元書單行事曆 (ICS)
 
 自動爬取 KOBO 部落格「一週99元書單」文章、解析書單並輸出可訂閱的 `.ics` (iCalendar) 檔案，供 Google 日曆「從網址新增」訂閱。
 訂閱資訊：[複製網址](https://oshukezu.github.io/KOBO99Codex/public/kobo99.ics)
