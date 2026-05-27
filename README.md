@@ -11,6 +11,7 @@
 - 點選右上角 齒輪 > 設定
 - 左側 一般 > 新增日曆 > [加入日曆網址](https://oshukezu.github.io/KOBO99-ics/public/kobo99.ics)
 
+<img width="809" height="371" alt="image" src="https://github.com/user-attachments/assets/ef6de6e8-a740-497a-9e66-0cc912edf561" />
 
 
 ## 免責與技術限制宣告 (Disclaimer & Limitations)
